@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    padding: 2rem;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.blog {
+    padding: 2rem;
+}
+
+.blog-item {
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
