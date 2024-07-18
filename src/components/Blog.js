@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css';
+import '../assets/styles.css';
 
 const blogPosts = [
     { id: 1, title: 'First Blog Post', date: '2023-01-01', summary: 'Summary of the first blog post.' },

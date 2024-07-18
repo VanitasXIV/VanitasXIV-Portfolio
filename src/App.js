@@ -4,11 +4,12 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
-import './styles.css';
+import './assets/styles.css';
 
 const App = () => {
   return (
     <div>
+      
       <Header />
       <Hero />
       <About />

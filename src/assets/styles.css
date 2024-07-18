@@ -705,44 +705,6 @@ bookshop {
         margin: 0 auto;
     }
 
-    /*# sourceMappingURL=sourcemaps/tiny-slider.css.map */
-    /* Animate */
-    /* Footer */
-    /* Copyright */
-    /* Header */
-    /* Logo */
-    /* Nav */
-    /* Pagination */
-    /* Project Card */
-    /* Sections */
-    /* Social Links */
-    /* Super basic resets */
-    /* --------------------------- Multi-screenshot banner graphic --------------------------- */
-    /* Extra wrapper for slide animations */
-    /* Example overlay container that can be used for text/etc */
-    /* --------------------------- Media queries --------------------------- */
-    /* Album */
-    /* Page + Post + Project */
-    /* Share */
-    /* Post navigation */
-    /* Related posts */
-    /* Disqus comments */
-    /* Project */
-    /* Project Navigation */
-    /* Virtual Photography Grid */
-    /* Albums List */
-    /* Posts List */
-    /* Posts List */
-    /* Button */
-    /* Contact Form */
-    /* Hero */
-    /* Reviews List */
-    /* Reviews List */
-    /* Page Heading */
-    /* Reviews List */
-    /* Reviews List */
-    /* Page Heading */
-    /* Reviews List */
 }
 
 @media only screen and (max-width: 1300px) {
@@ -2575,6 +2537,7 @@ bookshop {
     }
 }
 
+
 @media all,
 bookshop {
     .tns-horizontal.tns-no-subpixel>.tns-item {
@@ -2832,7 +2795,7 @@ bookshop {
         pointer-events: none;
     }
 
-    body::after {
+    /*body::after {
         content: "";
         position: fixed;
         left: 0;
@@ -2842,7 +2805,7 @@ bookshop {
         background-color: #fff;
         z-index: 15;
         transition: 1s;
-    }
+    } */
 }
 
 @media only screen and (max-width: 576px) {
@@ -7475,3 +7438,21 @@ bookshop {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode-button {
+    cursor: pointer;
+}
